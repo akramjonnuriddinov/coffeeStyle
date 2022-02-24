@@ -1,0 +1,371 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Karla", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 100%;
+    max-width: 980px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* HEADER */
+.site-header {
+    background-color: #fff;
+    /* border: 1px solid red; */
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+    padding-top: 28px;
+    padding-bottom: 28px;
+}
+
+.sitenav {
+    display: flex;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.site-logo {
+    display: block;
+}
+
+.site-logo svg {
+    display: block;
+}
+
+.sitenav ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.sitenav a {
+    color: #1D1F2E;
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 2px;
+}
+
+.sitenav-list {
+    display: flex;
+    margin-right: 50px;
+}
+
+.sitenav-list-item {
+    margin-right: 30px;
+}
+
+.sitenav-list-item:last-child {
+    margin-right: 0;
+}
+
+.sitenav-icon {
+    display: flex;
+}
+
+.sitenav-icon-item {
+    margin-right: 10px;
+}
+
+.sitenav-icon-item:last-child {
+    margin-right: 0;
+}
+/* /HEADER */
+
+
+/* MAIN */
+
+
+/* bg-section */
+.bg-section {
+    background-image: url("../img/header-bg.png");
+    /* border: 1px solid gold; */
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-bottom: 120px;
+}
+
+.bg-section-container {
+    padding: 159px 73px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFFFFF;
+}
+
+.bg-section-wrapper h2,
+.bg-section-wrapper h1,
+.bg-section-wrapper p,
+.bg-section-wrapper a {
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+}
+
+.bg-section-wrapper h2 {
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+}
+
+.bg-section-wrapper h1 {
+    font-size: 47px;
+    line-height: 60px;
+    margin-bottom: 10px;
+    letter-spacing: 2px;
+}
+
+.bg-section-wrapper p {
+    font-size: 17px;
+    line-height: 30px;
+    margin-bottom: 38px;
+}
+
+.btn-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.bg-section-wrapper a {
+    display: inline-block;
+    color: #1D1F2E;
+    background-color: #fff;
+    padding: 12px 24px;
+    text-decoration: none;
+}
+
+.sales {
+    background-color: #fff;
+    /* border: 1px solid red; */
+}
+
+.sales-container {
+    padding-top: 3px;
+}
+
+.site-logo {
+    margin-right: 97px;
+}
+
+.sales-title-wrapper {
+    display: flex;
+    justify-content: center;
+    width: 578px;
+    margin-left: 40px;
+    margin: 0 181px 16px;
+}
+
+.sales-container h2 {
+    text-align: center;
+    font-size: 28px;
+    line-height: 40px;
+    font-weight: 400;
+    color: #1D1F2E;
+    margin: 0;
+    padding: 0;
+}
+
+.sales-text-wrapper {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 21px;
+}
+
+
+.sales-container p {
+    text-align: center;
+    color: #1D1F2EB2;
+    font-size: 16px;
+    line-height: 28px;
+    width: 658px;
+}
+
+.sales-container h3 {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 2px;
+    color: #1D1F2E;
+}
+
+.card-wrapper {
+    display: flex;
+    margin-bottom: 100px;
+}
+
+.card-block {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.card-block img {
+    margin-bottom: 35px;
+}
+
+.card-block h5 {
+    text-align: center;
+    margin-bottom: 5px;
+    color: #1D1F2E;
+    font-size: 20px;
+    line-height: 30px;
+
+}
+
+.card-block h6 {
+    text-align: center;
+    color: #1D1F2EB2;
+    font-size: 16px;
+    line-height: 28px;
+}
+
+.img-title {
+    color: #1D1F2E;
+    text-align: center;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 2px;
+    margin-bottom: 100px;
+}
+
+.product-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 13px;
+    padding-bottom: 65px;
+    margin-bottom: 65px;
+}
+
+.product-img-block {
+    margin-bottom: 50px;
+    padding-bottom: 15px;
+    margin-right: 8px;
+}
+
+.product-img-block img {
+    margin-bottom: 35px;
+}
+
+.product-img-block h5 {
+    margin-bottom: 5px;
+    font-size: 20px;
+    line-height: 30px;
+    color: #1D1F2E;
+    text-align: center;
+}
+
+.product-img-block h6 {
+    color: #1D1F2E66;
+    font-size: 16px;
+    line-height: 28px; 
+    text-align: center;  
+}
+
+.product-img-block h6 span {
+    color: #A25F4B;
+}
+
+.buy-wrapper {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 130px;
+}
+
+.f-image-block {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 20px;
+}
+
+.f-img-wrapper img {
+    margin: 0;
+    margin-left: 20px;
+    display: block;
+}
+
+.f-img-wrapper img:last-child {
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.f-text-wrapper {
+    /* border: 1px solid red; */
+    padding-left: 60px;
+    padding-bottom: 9px;
+    padding-top: 0.5px;
+}
+
+.f-text-wrapper h3 {
+    margin: 0;
+    margin-bottom: 14px;
+    color: #1D1F2E;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 2px;
+    text-align: left;
+}
+
+.f-text-wrapper h2 {
+    margin: 0;
+    margin-bottom: 15px;
+    color: #1D1F2E;
+    font-size: 36px;
+    line-height: 50px;
+    text-align: left;
+    width: 237px;
+}
+
+.f-text-wrapper p {
+    text-align: left;
+    width: 353px;
+    color: #1D1F2EB2;
+    font-size: 16px;
+    line-height: 28px;
+    margin-bottom: 35px;
+}
+
+.f-text-wrapper a {
+    display: inline-block;
+    padding-top: 9px;
+    padding-bottom: 8px;
+    padding-left: 24px;
+    padding-right: 24px;
+    text-decoration: none;
+    font-size: 12px;
+    letter-spacing: 2px;
+    text-align: center;
+    background-color: #1D1F2E;
+    color: #fff;
+}
+
+.footer-section {
+    background-image: url("../img/footer-bg.png");
+    background-size: 100%;
+    height: 319px;
+    display: block;
+    background-repeat: no-repeat;
+    margin-bottom: 100px;
+}
+
+/* STORIES */
