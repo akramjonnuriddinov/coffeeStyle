@@ -369,3 +369,80 @@ body {
 }
 
 /* STORIES */
+.stories-title {
+    font-size: 12px;
+    color: #1D1F2E;
+    letter-spacing: 2px;
+    line-height: 18px;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.stories-wrapper {
+    display: flex;
+    padding-bottom: 48px;
+    margin-bottom: 141px;
+}
+
+.stories-card {
+    margin-right: 20px;
+}
+
+.stories-card:last-child {
+    margin-right: 0;
+}
+
+.stories-card img {
+    margin-bottom: 25px;
+    display: block;
+}
+
+.stories-card h5 {
+    color: #1D1F2E;
+    width: 297px;
+    font-size: 20px;
+    line-height: 32px;
+    margin-bottom: 10px;
+}
+
+.stories-card p {
+    color: #1D1F2EB2;
+    width: 281px;
+    font-size: 16px;
+    line-height: 28px;
+    margin-bottom: 16px;
+}
+
+.stories-card span {
+    color: #1D1F2E;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 2px;
+}
+
+.contact {
+    background-color: #1D1F2E;
+}
+
+.contact-container {
+    padding-top: 80px;
+    padding-bottom: 85px;
+}
+
+.contact-info {
+    color: #FFFFFF;
+    font-size: 12px;
+    letter-spacing: 2px;
+    line-height: 18px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+
+.contact-title {
+    color: #FFFFFF;
+    font-size: 36px;
+    line-height: 50px;
+    font-weight: normal;
+    text-align: center;
+}
