@@ -75,6 +75,10 @@ body {
     margin-right: 0;
 }
 
+.sitenav-list-item a:hover {
+    color: red;
+}
+
 .sitenav-icon {
     display: flex;
 }
@@ -140,6 +144,10 @@ body {
 .btn-wrapper {
     display: flex;
     justify-content: center;
+}
+
+.btn-wrapper a:hover {
+    box-shadow: 2px 2px 2px 0 rgba(255, 255, 255, .5);
 }
 
 .bg-section-wrapper a {
@@ -482,4 +490,67 @@ input:hover {
 
 .form-btn:hover {
     background-color: rgba(255, 255, 255, .8);
+}
+
+
+/* /MAIN */
+
+
+/* FOOTER */
+
+.site-footer-container {
+    display: flex;
+    padding-top: 107px;
+    padding-bottom: 52px;
+}
+
+.site-footer-container a {
+    text-decoration: none;
+    color: #1D1F2EB2;
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 400;
+}
+
+.site-footer-container a:hover {
+    color: #000;
+}
+
+.site-footer-container h6 {
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 2px;
+    color: #1D1F2E;
+    margin-bottom: 23px;
+}
+
+.site-footer-container ul {
+    list-style: none;
+}
+
+.site-footer-logo {
+    margin-bottom: 22px;
+}
+
+.site-footer-paragraph {
+    width: 258px;
+}
+
+.footer-logo {
+    margin-right: 55px;
+}
+
+.footer-menu {
+    margin-right: 79px;
+}
+
+.footer-follow {
+    margin-right: 96px;
+}
+
+.site-footer-paragraph {
+    color: #1D1F2EB2;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
 }
